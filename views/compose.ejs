@@ -1,0 +1,17 @@
+<%- include("partials/header");-%>
+
+    <h1>Compose</h1>
+    <form action="/compose" method="post">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" name="title">
+
+            <label>Post</label>
+            <textarea type="text" class="form-control" name="post" rows="5" cols="20"></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit"><i class="fas fa-check-square"></i>Publish</button>
+        <button class="btn btn-danger" name="cancel" value="return_home" type="submit"><i class="fas fa-trash-alt"></i>Cancel</button>
+    </form>
+
+    <%- include("partials/footer");-%>
