@@ -1,0 +1,52 @@
+hr {
+    border-top: 1px solid black;
+}
+
+.fa-edit,
+.fas {
+    margin: 0 5px 0 0;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #fff;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.home_new_btn {
+    margin: 3vh 0;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color: #000;
+}
